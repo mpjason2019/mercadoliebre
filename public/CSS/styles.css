@@ -1,0 +1,572 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #ECEAEB ;
+}
+
+
+hr{
+    margin: 0;
+}
+
+p{
+    font-size: 12px;
+}
+
+main{
+    margin-top: 250px;
+}
+
+header.main-header{
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 10;
+}
+
+div.top-header{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5%;
+}
+header div.top-header p{
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+    justify-content: space-between;
+}
+
+header{
+    background-color: #EAC926;
+   
+}
+header div.logo,
+header .form{
+    width: 50%;
+    justify-content: center;
+}
+header div.logo{
+    padding: 10px;
+}
+
+header .form {
+    display: flex;
+    /* align-items: center; */
+    padding: 2px;
+    font-size: 10px;
+    margin: 0  auto;
+    flex-wrap: wrap;
+    width: 50%;
+}
+
+div.buscar{
+    margin-left: 5px;
+}
+
+/* div.buscar input{
+    
+    padding: 5px;
+    margin: 5px ;
+} */
+
+
+header .copy-header{
+    text-align: center;
+}
+
+/* h2 .copy-header{
+    margin: 0 auto;
+
+} */
+header .form .input{
+    background-color: #FFF;
+    border: 1px solid #000;
+    outline: none;
+    color: #666;
+    padding: 2px;
+}
+
+header .form .submit{
+    background-color: #FFF;
+    border: 1px solid #000;
+    color: #666;
+    width: 10%;
+}
+
+
+div.main-header-top-ba ,.logo{
+    margin: 10PX;
+    width: 200px;
+    animation: aumentar 1000ms linear 4 alternate;
+    
+}
+
+@keyframes aumentar{
+    0%{
+        transform: scale(1);
+    }
+    100%{
+        transform: scale(1.1);
+    }
+}
+
+
+
+
+
+p.buscar{
+    padding: 5px;
+}
+
+
+div.hamburger-buttom{
+    text-align: center;
+}
+
+div.hamburger-buttom i{
+    background-color: #03264c;
+    color:#ffff ;
+    border-radius: 8px;
+    font-size: 18px;
+   
+    margin: 10px 0px 20px 0px;
+    padding: 15px 0;
+    width: 40px;
+    
+}
+
+
+.main-navbar{
+    display: none;
+}
+
+.main-navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.main-navbar a{
+    text-decoration: none;
+    color: #222222  ;
+    display: inline-block;
+    padding: 5px 0;
+    font-size: 17px;
+}
+
+.precios{
+    width: 70%;
+    font-size: 16px;
+
+}
+
+.descuentos,
+.descripciones{
+    font-size: 16px;
+    font-weight: normal;
+}
+
+h4,
+.descripciones{
+    color: #666;
+}
+
+.descripciones{
+    display: none;
+    margin-top: 20px;
+
+}
+
+
+img.baner{
+    width: 100vw;
+    
+   
+  
+}
+
+.secciones{
+    text-align: center;
+    color: rgb(112, 112, 112);
+}
+
+
+footer{
+    width: 100vw;
+}
+
+main section{
+    width: 100vw;
+    padding: 20px;
+    
+}
+
+main section article{
+    background-color: #fff;    
+    margin: 10px 0px;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+main section article img{
+    width: 100%;
+}
+
+
+main section article i,
+.descuentos{
+    color: #39b54a;
+}
+
+main section article div.productos2,
+.descuentos{
+    position: relative;
+}
+
+
+
+div .productos2 i{
+    display: block;
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #39b54a;
+    background-color: #FFF;
+    border-radius: 50%;
+    position: absolute;
+    right: 20px;
+    top: -15px;
+}
+
+main section h2.secciones{
+    margin: 20px 0px;
+}
+
+div.productos2{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    border-top: 1px solid #ebebeb;
+    position: relative;
+    padding:  15px 0px 0px 0px;
+}
+
+
+
+
+
+
+.piePagina{
+    padding: 20px 15px;
+ 
+}
+
+.footerdiv{
+    
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.footerdiv h2{
+    margin: 0;
+    font-size: 20px;
+}
+
+.footerdiv p{
+    margin-top: 5px;
+
+}
+.icono{
+    color: blue;
+     margin-bottom: 10px;
+     font-size: 2em;
+}
+
+
+
+
+
+
+@media (min-width: 361px){
+
+    /*main section article .descripciones{
+        display: block;
+    }*/
+
+
+    main section article:hover .descripciones{
+        display: block;
+        
+    }
+
+    main section div.products article:hover {
+        box-shadow: 0px 0px 20px rgb(100, 100, 100);
+        
+    }
+
+    main section article:hover i{
+        transition: transform 1s ;
+        transform: rotate(-90deg);
+                }
+
+    /* main section article i{
+        transform: rotate(-90);
+           
+    } */
+    
+
+
+    /* main section article{
+        box-shadow: 0px 0px 20px rgb(100, 100, 100);
+    } */
+
+    main section div.products{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: start;
+    }
+
+
+      
+    main section div.products article{
+        width: 45%;
+    }
+
+    .precios,
+    .descuentos{
+        width: 50%;
+        font-size: 0.9rem;
+    }
+
+   
+    header .form {
+        display: flex;
+        /* align-items: center; */
+        padding: 2px;
+        font-size: 11px;
+        margin: 0  auto;
+    }
+
+
+    header .copy-header p{
+        font-size: 12px;
+    }
+
+
+
+}
+
+@media (min-width: 769px){
+
+    main section div.products article{
+        width: 22%;
+    }
+
+    div.productos2{
+        justify-content: space-between;
+    }
+
+    .precios,
+    .descuentos{
+        font-size: 12PX;
+    }
+
+    div.hamburger-buttom i{
+        display: none;
+        
+    }
+
+
+    main{
+        margin-top: 150px;
+    }
+
+    .main-navbar,
+    .left-navbar,
+    .right-navbar{
+        display: flex;
+        justify-content: space-between;
+        margin: 5px;
+    }
+
+    .left-navbar li{
+        padding: 5px;
+        font-weight: bold;
+    }
+
+    .right-navbar li{
+        padding: 5px;
+        font-weight: bold;
+    }
+
+
+    .footerdiv{
+    
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    footer.piePagina{
+        display: flex;
+        position: relative;
+        justify-content: space-between;
+        align-items: center;
+        align-content: center;
+                
+    }
+
+    footer div{
+        margin: 5px;
+    }
+
+    footer div h2.footertittle{
+        font-size: 17px;
+    }
+
+
+    footer div.copy p{
+        position: absolute;
+        bottom: 0px;
+        left: 35vw;
+    } 
+
+    div.copy p{
+        margin: 0px;
+        
+    }
+
+    header div h2.copy-header{
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        margin-right: 15px;
+        margin-top: 1px;
+        padding: 5px;
+    }
+
+    header .copy-header p{
+        font-size: 15px;
+    }
+
+    footer div:hover i{
+        color: black;
+
+    }
+
+}
+
+
+@media (min-width: 1000px){
+
+    
+
+    footer div{
+        margin: 5px;
+    }
+
+    footer div h2.footertittle{
+        font-size: 24px;
+    }
+
+    .legales{
+        font-size: 20px;
+    }
+
+
+    footer div.copy p{
+        position: absolute;
+        bottom: 0px;
+        left: 41vw;
+    } 
+
+    div.copy p{
+        margin: 0px;
+        
+    }
+
+
+    .precios,
+    .descuentos,
+    .descripciones{
+        font-size: 1.5rem;
+    }
+    
+    nav ul.left-navbar li a{
+        font-size: 20px;
+        padding: 10px;
+    }
+
+    nav ul.right-navbar li a{
+        font-size: 20px;
+        padding: 10px;
+    }
+
+    h2.secciones{
+        font-size: 40px;
+    }
+
+       
+    header .form {
+       
+        font-size: 20px;
+        
+    }
+    header .copy-header p{
+        font-size: 20px;
+    }
+
+
+
+}
+
+
+
+
+
+
+
+
+
+.create-form{
+    padding: 20px 15px 0px 15px;
+    margin: 0px;
+    margin-top: 300px;
+}
+
+.control-formulario{
+    margin-bottom: 15px;
+   
+
+}
+
+.control-formulario label{
+    margin-bottom: 5px;
+    font-style: italic;
+    display: block;
+}
+
+.control{
+    width: 100%;
+    padding: 8px 8px;
+}
+
+.boton-formulario{
+    background-color: #39b54a;
+    border: none;
+    font-size: 20px;
+    color: white;
+    padding: 5px 10px;
+    border-radius:5px ;
+   
+}
+
+
+
