@@ -359,7 +359,49 @@ div.productos2{
     header .copy-header p{
         font-size: 12px;
     }
+    .create-form{
+        padding: 20px 15px 0px 15px;
+        margin: 0px;
+        margin-top: 300px;
+    }
 
+    .create-form2{
+        padding: 20px 15px 0px 15px;
+        margin: 0px;
+        margin-top: 80px;
+    }
+    
+    control-formulario{
+        margin-bottom: 15px;
+       
+    
+    }
+    
+    .control-formulario label{
+        margin-bottom: 5px;
+        font-style: italic;
+        display: block;
+    }
+    
+    .control{
+        width: 100%;
+        padding: 8px 8px;
+    }
+    
+    .boton-formulario{
+        background-color: #39b54a;
+        border: none;
+        font-size: 20px;
+        color: white;
+        padding: 5px 10px;
+        border-radius:5px ;
+       
+    }
+    
+    div.control-formulario{
+        text-align: center;
+        margin: 5px;
+    }
 
 
 }
@@ -399,12 +441,12 @@ div.productos2{
 
     .left-navbar li{
         padding: 5px;
-        font-weight: bold;
+        
     }
 
     .right-navbar li{
         padding: 5px;
-        font-weight: bold;
+        
     }
 
 
@@ -461,6 +503,17 @@ div.productos2{
 
     }
 
+    .create-form{
+         margin-top: 150px;
+         width: 70%;
+         margin: 150px auto;
+         margin-bottom: 15px;
+    }
+.create-form2{
+    width: 70%; 
+    margin: 0 auto;
+    margin-top: 90px;
+}
 }
 
 
@@ -473,11 +526,11 @@ div.productos2{
     }
 
     footer div h2.footertittle{
-        font-size: 24px;
+        font-size: 20px;
     }
 
     .legales{
-        font-size: 20px;
+        font-size: 15px;
     }
 
 
@@ -523,50 +576,14 @@ div.productos2{
         font-size: 20px;
     }
 
+    .create-form{
+        
+        width: 50%;
 
 
+    }
+
+    .create-form2{
+        width: 50%; 
 }
-
-
-
-
-
-
-
-
-
-.create-form{
-    padding: 20px 15px 0px 15px;
-    margin: 0px;
-    margin-top: 300px;
 }
-
-.control-formulario{
-    margin-bottom: 15px;
-   
-
-}
-
-.control-formulario label{
-    margin-bottom: 5px;
-    font-style: italic;
-    display: block;
-}
-
-.control{
-    width: 100%;
-    padding: 8px 8px;
-}
-
-.boton-formulario{
-    background-color: #39b54a;
-    border: none;
-    font-size: 20px;
-    color: white;
-    padding: 5px 10px;
-    border-radius:5px ;
-   
-}
-
-
-
